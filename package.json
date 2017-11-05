@@ -1,0 +1,52 @@
+{
+  "name": "react-highlighted-textarea",
+  "version": "0.0.1",
+  "description": "React componet for highlighted textarea",
+  "main": "lib/HighlightedTextarea.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel -w src --out-dir lib",
+    "prepare": "babel src --out-dir lib",
+    "lint": "eslint --ext .jsx --ext .js src/",
+    "format": "eslint --fix --ext .jsx --ext .js src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/en30/react-highlighted-textarea.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "en30 <en30.git@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/en30/react-highlighted-textarea/issues"
+  },
+  "homepage": "https://github.com/en30/react-highlighted-textarea#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.10.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "peerDependencies": {
+    "react": "^15.3.0 || ^16.0.0",
+    "react-dom": "^0.14.7 || ^15.0.0 || ^16.0.0"
+  },
+  "dependencies": {
+    "lodash.isequal": "^4.4.0"
+  }
+}
