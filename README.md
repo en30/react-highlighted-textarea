@@ -13,6 +13,9 @@ $ npm install --save git+https://git@github.com/en30/react-highlighted-textarea.
 Style its value and put it as `children` of `HighlightedTextarea`.
 
 ```jsx
+import React, { Component } from 'react'
+import HighlightedTextarea from 'highlighted-text-area'
+
 const highlightTrailingWhitespace = (text) => (
   text.split(/(\s+)(?=\n)/).map((e, i) => {
     if (/\S/.test(e)) return e
