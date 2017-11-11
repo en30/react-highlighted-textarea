@@ -7,6 +7,10 @@ import HighlightedText from './HighlightedText'
 import Textarea from './Textarea'
 
 export default class HighlightedTextarea extends Component {
+  static defaultProps = {
+    style: {}
+  }
+
   constructor (props) {
     super(props)
     this.state = {size: {}}
